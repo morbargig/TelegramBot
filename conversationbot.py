@@ -9,7 +9,7 @@ from telegram import (ReplyKeyboardMarkup, KeyboardButton,
                       ReplyKeyboardRemove, Update, InlineKeyboardButton, InlineKeyboardMarkup)
 from telegram.ext import (Updater, CommandHandler, MessageHandler, Filters,
                           ConversationHandler, CallbackContext,CallbackQueryHandler)
-
+from apiKey import apiKey
 
 exit() if  __name__ != "__main__" else None
 # Enable logging
@@ -223,7 +223,7 @@ def main():
     # Make sure to set use_context=True to use the new context based callbacks
     # Post version 12 this will no longer be necessary
     updater = Updater(
-        "1053105867:AAEGS1wxlXHnDIk1o_2fQZ8eBtswFQLBq9Q", use_context=True)
+        apiKey, use_context=True)
 
     # Get the dispatcher to register handlers
     dp = updater.dispatcher
