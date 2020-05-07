@@ -2,7 +2,9 @@
 
 
 git clone https://github.com/morbargig/TelegramBot.git
+
 pip install telegram==0.0.1
+
 ```python
 def main():
     updater = Updater(
