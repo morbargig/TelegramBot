@@ -16,4 +16,4 @@ py conversationbot.py
 
 open telegram with your chat name
 
-![alt text](https://raw.githubusercontent.com/morbargig/TelegramBot/master/images/readme/appExample.jpeg)
+![alt text](https://raw.githubusercontent.com/morbargig/TelegramBot/master/photos/readme/appExample.jpeg)
