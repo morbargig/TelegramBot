@@ -59,7 +59,7 @@ def like(update, context):
     if len(users_dic) == 0:
         return
     i = users_dic.pop(0)
-    photo = str(i[1]) + "'s_photo_" + str(i[2]) + ".jpg"
+    photo = "photos\\" + str(i[1]) + "'s_photo_" + str(i[2]) + ".jpg"
     keyboard = [[InlineKeyboardButton(
         u"chat " + str(i[1]) + " for 100 coin 💸", callback_data=str(SECOND))]]
     reply_keyboard = [['👎🏻', '👍🏻']]
